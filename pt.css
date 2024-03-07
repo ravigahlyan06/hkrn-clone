@@ -1,0 +1,358 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main > .main-2.show {
+  display: block;
+}
+.main > .main-2 {
+  position: relative;
+}
+
+.main > .main-2 > nav {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(238, 234, 234);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.main > .main-2 > nav > .logo {
+  width: fit-content;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.main > .main-2 > .le-1 {
+  color: white;
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: brown;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: column;
+  bottom: 360px;
+  left: 520px;
+}
+.main > .main-2 > #list-2 {
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: brown;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: column;
+  bottom: 360px;
+  left: 670px;
+}
+.main > .main-2 > #list-3 {
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: brown;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: column;
+  bottom: 360px;
+  left: 820px;
+}
+.main > .main-2 > #list-4 {
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: brown;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: column;
+  bottom: 360px;
+  left: 970px;
+}
+.main > .main-2 > #list-5 {
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: brown;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: column;
+  bottom: 360px;
+  left: 1120px;
+}
+.main > .main-2 > nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 40px;
+  /* background-color: aqua; */
+  width: 800px;
+  height: 50px;
+  margin-left: 90px;
+}
+/* .main > .main-2>nav > ul > li>a{
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+text-decoration: none;
+list-style: none;
+} */
+
+.main > .main-2 > nav > ul > li {
+  position: relative;
+}
+.main > .main-2 > nav > ul > li > .le-1 {
+  position: absolute;
+  color: white;
+  /* width: 150px;
+  height: 250px; */
+  background-color: brown;
+  border: 2px solid black;
+  width: 150px;
+  top: 180%;
+  left: 0;
+  right: 0;
+  padding: 10px 5px;
+  transition: 0.2s ease-out;
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+}
+.main > .main-2 > nav > ul > li > .le-1 > p {
+  padding: 5px 0px;
+  margin: 10px 0px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+
+.main > .main-2 > nav > ul > li > a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  padding: 5px 7px;
+}
+
+.main > .main-2 > nav > ul > li > a::after {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  width: 0px;
+  height: 7px;
+  background-color: yellow;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+
+.main > .main-2 > nav > ul > li > a:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+
+.main > .main-2 > nav > ul > li > a:hover + .le-1 {
+  opacity: 1;
+  top: 150%;
+  pointer-events: all;
+}
+
+.main > .main-2 > nav > ul > li:hover a {
+  font-style: 40px;
+}
+
+.main > .main-2 > nav > ul > li > .le-1:hover {
+  opacity: 1;
+  top: 150%;
+  pointer-events: all;
+}
+
+.main > .main-2 > nav > .cross {
+  /* background-color: blue; */
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 10px;
+}
+.main > .main-2 > .box-1 > .phoster > .img > .img-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 2px solid black;
+  top: 30px;
+  overflow: hidden;
+}
+
+.main > .main-2 > .box-1 > .phoster > .img > .img-1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* border-radius: 50px;
+    border:2px solid black;
+    top:30px; */
+}
+.main > .main-2 > .box-1 > .phoster > .img > .img-2 > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 2px solid black;
+  bottom: 30px;
+}
+.main > .main-2 > .box-1 > .phoster > .img > .img-3 > {
+  font-size: 150px;
+}
+.main > .main-2 > .box-1 > .phoster > .img {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: blueviolet; */
+}
+.main > .main-2 > .box-1 > .phoster {
+  background-image: url("https://as2.ftcdn.net/v2/jpg/02/49/51/07/1000_F_249510737_yLr06ae4n6mckGANXZJgqyT2gt0BEC23.jpg");
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.main > .main-2 > .box-1 > .phoster > .head {
+  width: 50%;
+  height: 400px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 40px;
+  color: blue;
+  gap: 60px;
+}
+.main > .main-2 > .box-1 > .poster-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.main > .main-2 > .box-1 > .poster-2 > .job {
+  width: 450px;
+  height: 200px;
+  background-color: rgb(234, 70, 70);
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border: none;
+  outline: none;
+}
+.main > .main-2 > .box-1 > .poster-2 > .emp {
+  width: 450px;
+  height: 200px;
+  background-color: rgb(71, 169, 71);
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border: none;
+  outline: none;
+}
+.main > .main-2 > .box-1 > .poster-2 > .hk {
+  width: 450px;
+  height: 200px;
+  background-color: rgb(6, 117, 176);
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.main > .main-2 > .box-1 > .poster-2 > .job > .icn {
+  font-size: 30px;
+  color: white;
+}
+.main > .main-2 > .box-1 > .poster-2 > .emp > .icn {
+  font-size: 30px;
+  color: white;
+}
+.main > .main-2 > .box-1 > .poster-2 > .hk > .icn {
+  font-size: 30px;
+  color: white;
+}
+.main > .main-2 > .box-1 > .poster-2 > .job > .btn > button {
+  height: 40px;
+  background-color: rgb(29, 29, 225);
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.main > .main-2 > .box-1 > .poster-2 > .emp > .btn > button {
+  height: 40px;
+  background-color: rgb(29, 29, 225);
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.main > .main-2 > .box-1 > .poster-2 > .hk > button {
+  height: 40px;
+  background-color: rgb(29, 29, 225);
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.main > .main-2 > .box-1 > .poster-2 > .hk > button:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.main > .main-2 > .box-1 > .poster-2 > .emp > .btn > button:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.main > .main-2 > .box-1 > .poster-2 > .job > .btn > button:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+}

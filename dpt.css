@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
+    display: flex;
+align-items: center;
+justify-content: start;
+flex-direction: column;
+gap:10px;
+}
+.main>.first-div{
+width: 100%;
+height:230px;
+/* background-color: aqua; */
+}
+.main>.first-div>p{
+    font-size: 25px;
+   
+    font-weight: bolder;
+}
+.main>.first-div>.yellow{
+    color:yellow;
+}
+.main>.first-div>.red{
+    color:red;
+}
+.main>.first-div>.green{
+    color:green;
+}
+.main>.second-div{
+background-color: white;
+/* display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; */
+    width:500px;
+    height: 370px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.main>.second-div>.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: yellowgreen; */
+    margin-top: 10px;
+}
+.main>.second-div>.head>h1{
+    background-color: rgb(169,37,7);
+    font-size: 30px;
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+}
+.main>.second-div>.head>p{
+    font-size: 25px;
+}
+.main>.second-div>.inp{
+    /* background-color: brown; */
+    padding:10px;
+
+    height:200px;
+}
+.main>.second-div>.inp>.name{
+    margin-top: 20px;
+}
+.main>.second-div>.inp>.name>input{
+    width:100%;
+font-size: 15px;
+padding: 7px;
+border:1px solid black;
+border-radius: 5px;
+outline: none;
+}
+.main>.second-div>.inp>.pass{
+    margin-top: 20px;
+}
+.main>.second-div>.inp>.pass>input{
+    width:100%;
+font-size: 15px;
+padding: 7px;
+border:1px solid black;
+border-radius: 5px;
+outline: none;
+}
+.main>.second-div>.btn>a{
+
+    text-decoration: none;
+}
+.main>.second-div>.btn>a:hover{
+    text-decoration:underline;
+}
+.main>.second-div>.btn{
+    width:100%;
+    /* background-color: chocolate; */
+    height:50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap:15px;
+    padding:10px;
+}
+.main>.second-div>.btn>button{
+    width:80px;
+    height:30px;
+    font-size: 15px;
+outline: none;
+border: none;
+border-radius: 5px;
+background-color: rgb(64, 229, 64);
+color: white;
+cursor: pointer;
+}
+.main>.second-div>.btn>button:hover{
+    background-color: green;
+}
+.main>.second-div>.btn>a{
+    color:brown;
+    
+}
+.main>.second-div>.inp>.hidden >h3{
+    color:red;
+    display: none;
+}
+.main>.second-div>.show{
+    color:red;
+    margin: 0px 10px;
+    display: none;
+}

@@ -1,0 +1,131 @@
+.main > .Registered-ID {
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  #dee0e1;
+  margin-top: 4px;
+
+
+}
+.main>nav{
+  background-color: white;
+}
+.main > .Registered-ID > div > h1 {
+  color: red;
+  font-size: 35px;
+  padding:15px;
+
+}
+.main > .big-btn-div {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main > .big-btn-div > .small-btn-div {
+  width: 80%;
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main > .big-btn-div > .small-btn-div > a {
+  flex: 1;
+  padding: 30px 10px;
+  font-size: 16px;
+  min-width: 100px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  min-width: 80px;
+}
+
+.main > .big-btn-div > .small-btn-div > a:hover {
+  background-color: #195ca4;
+  color: white;
+}
+.main-box {
+  padding: 10px 150px;
+}
+
+.main-box > .head > .heading {
+  padding: 10px;
+  position: relative;
+  color: #fff;
+  background-image: linear-gradient(135deg, #19519e, #1dd5e6);
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.details-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+}
+.details-input > div {
+  width: 48%;
+  margin: 10px 0px;
+}
+
+.details-input > div > label {
+  margin-bottom: 10px;
+}
+
+.details-input > div > input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  display: block;
+  min-width: 30px;
+}
+
+
+.griv {
+  position: relative;
+}
+ .griv > a:hover + .feedback-cont {
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  opacity: 0;
+  pointer-events: none;
+}
+.griv > .feedback-cont:hover{
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont > .Feedback > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}

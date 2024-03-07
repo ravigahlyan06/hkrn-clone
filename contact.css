@@ -1,0 +1,181 @@
+.main > .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main > .heading > .pheli {
+  width: 200px;
+  border: 1px solid red;
+}
+.main > .heading > span {
+  width: 150px;
+  border: 1px solid red;
+  margin-top: 5px;
+}
+
+.main > .container {
+  /* background-color: blue; */
+  margin-top: 10px;
+  width: 100%;
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+}
+.main > .container > .img {
+  /* background-color: red; */
+  width: 45%;
+  text-align: center;
+}
+.main > .container > .address {
+    padding-top: 10px;
+  /* background-color: blueviolet; */
+  width: 600px;
+  height:250px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 10px;
+}
+.main > .container > .address > h1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: pink; */
+}
+.main > .container > .address > .phn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* gap: 30px; */
+  width: 100%;
+  margin-top: 10px;
+  /* margin-left: 50px; */
+
+}
+.main > .container > .address > .phn > .cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: brown;
+  color: white;
+  font-size: 17px;
+  padding: 10px 35px;
+  border-radius: 8px;
+  width: 350px;
+}
+.main > .container > .address > .phn > i {
+  font-size: 40px;
+  color: brown;
+    margin-left: 30px;
+
+}
+.main > .container > .address > .mail {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* gap: 30px; */
+  width: 100%;
+  margin-top: 40px;
+  /* margin-left: 50px; */
+
+}
+.main > .container > .address > .mail > .ecnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+  color: white;
+  font-size: 17px;
+  padding: 10px 35px;
+  border-radius: 8px;
+  width: 350px;
+}
+.main > .container > .address > .mail > i {
+  font-size: 40px;
+  color: goldenrod;
+    margin-left: 30px;
+
+}
+
+.main>.container>.address>a{
+    border-radius: 5px;
+    background-color: blue;
+    text-decoration: none;
+    text-align: center;
+    padding:8px 25px;
+    font-size: bold;
+    color: white;
+    margin-top: 30px;
+    margin-left: 240px;
+}
+.main>.container>.address>a:hover{
+  color:gray;
+}
+.main>.name{
+    width:100%;
+    /* background-color: aqua; */
+    color: red;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.main>.container>.address>.phn>.icn>i{
+    color: brown;
+    font-size: 35px;
+    margin-left: 50px;
+}
+.main>.container>.address>.mail>.icn>i{
+    color:goldenrod;
+    font-size: 35px;
+    margin-left: 50px;
+
+}
+.main>.showw-data{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.griv {
+  position: relative;
+}
+ .griv > a:hover + .feedback-cont {
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  opacity: 0;
+  pointer-events: none;
+}
+.griv > .feedback-cont:hover{
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont > .Feedback > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}

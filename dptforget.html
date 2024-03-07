@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="dptforget.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="Poster">
+        <div class="head">
+          <h1>HKRN</h1>
+          <p>Haryana Kaushal Rojgar Nigam</p>
+        </div>
+        <div class="inp">
+          <div class="sign-in-input first-inp">
+            <label for="user_name">User Name</label>
+            <input type="text" placeholder="User Name" id="user_name" />
+            <p id="name_alert">Enter User Name</p>
+          </div>
+          <div class="sign-in-input second-inp">
+            <label for="Enter_Pass">New Password</label>
+            <input type="password" placeholder="Password" id="enter_pass" />
+            <p id="new_pass_alert">Enter New Password</p>
+          </div>
+          <div class="sign-in-input third-inp">
+            <label for="confirm_pass">Confirm Password</label>
+            <input
+              type="password"
+              placeholder="Confirm Password"
+              id="confirm_pass"
+            />
+            <p id="confirm_pass_alert">Enter Confirm Password</p>
+            <p id="pass-match">Password doesn't Match</p>
+          </div>
+          <div class="sign-in-input captcha">
+            <div class="captcha-code">
+              <h3 id="captcha-space">CAptcha code</h3>
+            </div>
+            <div class="captcha-input">
+              <input
+                type="text"
+                placeholder="Enter Captcha"
+                id="captcha_text"
+              />
+              <p id="enter_cpt">Enter Captcha</p>
+              <p id="wrong_cpt">Entered wrong Captcha</p>
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+          <a href="D:\Ravi\ravii\Javascript\HKRN\dpt.html">
+            Click Here Go Login Page
+          </a>
+          <button onclick="handleSubmit()">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="dptforget.js"></script>
+</html>

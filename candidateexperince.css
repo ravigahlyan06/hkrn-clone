@@ -1,0 +1,343 @@
+.main > .Registered-ID {
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #dee0e1;
+    margin-top: 4px;
+
+
+  }
+  .main>nav{
+    background-color: white;
+  }
+  .main > .Registered-ID > div > h1 {
+    color: red;
+    font-size: 35px;
+    padding:15px;
+
+  }
+  
+.container {
+    padding: 20px 150px;
+  }
+  .main > .container > .big-btn-div {
+    padding: 20px;
+  }
+  .main > .container > .big-btn-div > .small-btn-div {
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .main > .container > .big-btn-div > .small-btn-div > a {
+    flex: 1;
+    padding: 30px 10px;
+    font-size: 16px;
+    min-width: 100px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    min-width: 80px;
+  }
+  
+  .main > .container > .big-btn-div > .small-btn-div > a:hover {
+    background-color: #195ca4;
+    color: white;
+  }
+  .main > .container>.adv-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+  }
+  .main > .container>.first-phoster>.inputs{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .main > .container>.first-phoster>.inputs>input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:500px;
+  }
+  .main > .container>.first-phoster>.inputs>input>label{
+    display: block;
+  }
+
+  .main > .container > .first-phoster>.heading{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background-image: linear-gradient(135deg, #1265d9f5, #22e4f6);
+    margin-top: 25px;
+  }
+  
+  .main > .container > .first-phoster>.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+  }
+  
+  .main > .container > .first-phoster>.inputs>.input{
+ 
+    /* background-color: aqua; */
+    display: flex;
+    align-items:start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width:400px;
+  }
+  
+  .main > .container > .first-phoster>.inputs>.input>label{
+    font-size: 20px;
+    padding:5px;
+  }
+  .main > .container > .first-phoster>.inputs>.input>select{
+    width:300px;
+    font-size: 16px;
+    padding:5px;
+  }
+  .main > .container > .first-phoster>.inputs>.inputes{
+    /* background-color: aqua; */
+    display: flex;
+    align-items:start;
+
+    justify-content: flex-start;
+    flex-direction: column;
+    display: none;
+  }
+
+
+
+
+
+  
+  .main > .container > .first-phoster>.inputs>.inputes>label{
+    font-size: 20px;
+    padding:5px;
+  }
+
+  .main > .container > .first-phoster>.inputs>.inputes>select{
+    width:300px;
+    font-size: 16px;
+    padding:5px;
+  }
+  
+  .main > .container > .first-phoster>.storage>P{
+    /* background: yellow; */
+    font-size: 17px;
+    margin-top: 50px;
+  }
+  .main > .container >  .first-phoster>.storage>.show-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: blue; */
+    padding-top:10px;
+  }
+  
+  .main > .container >  .first-phoster>.storage>.show-data>.data>p{
+    /* background-color: green; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding:5px;
+  }
+  
+  .main > .container >  .first-phoster>.storage>h5{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.main > .container > .second-phoster{
+  margin-top: 50px;
+}
+.main > .container > .second-phoster>.heading{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-image: linear-gradient(135deg, #1265d9f5, #22e4f6);
+  margin-top: 25px;
+}  
+
+.main > .container > .second-phoster>.input{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+/* background-color: yellow; */
+gap:100px;
+margin-top: 10px;
+}
+
+.main > .container > .second-phoster>.input>.inp-1{
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+
+.main > .container > .second-phoster>.input>.inp-1>label{
+  padding: 5px 0px;
+}
+.main > .container > .second-phoster>.input>.inp-1>select{
+  width:300px;
+  font-size: 17px;
+  padding:5px;
+}
+.main > .container > .second-phoster>.input>.inp-2{
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+
+.main > .container > .second-phoster>.input>.inp-2>label{
+  padding: 5px 0px;
+}
+.main > .container > .second-phoster>.input>.inp-2>select{
+  width:300px;
+  font-size: 17px;
+  padding:5px;
+}
+
+.main > .container > .third-phoster{
+  margin-top: 50px;
+}
+.main > .container > .third-phoster>p {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-image: linear-gradient(135deg, #1265d9f5, #22e4f6);
+  margin-top: 25px;
+}  
+
+.main > .container > .third-phoster>.data-storage{
+  /* background-color: indianred; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+
+.main > .container > .third-phoster>.data-storage>.data>h4{
+  height:20px;
+}
+
+.main > .container > .third-phoster>.data-storage>.data>p{
+  height:30px;
+}
+
+.main > .container > .third-phoster>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.main > .container > .forth-phoster{
+  margin-top: 50px;
+}
+.main > .container > .forth-phoster>p {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-image: linear-gradient(135deg, #1265d9f5, #22e4f6);
+  margin-top: 25px;
+}  
+
+.main > .container > .forth-phoster>.data-storage{
+  /* background-color: indianred; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+margin-top: 20px;
+}
+
+.main > .container > .forth-phoster>.data-storage>.data>h4{
+  height:20px;
+}
+
+.main > .container > .forth-phoster>.data-storage>.data>p{
+  height:30px;
+}
+
+.main > .container > .forth-phoster>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main > .container>.phera{
+margin-top: 90px;
+}
+.main > .container>.phera >ol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:20px;
+}
+.main>.container>.phera>p{
+  margin-top: 20px;
+  
+}
+
+
+.griv {
+  position: relative;
+}
+ .griv > a:hover + .feedback-cont {
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  opacity: 0;
+  pointer-events: none;
+}
+.griv > .feedback-cont:hover{
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont > .Feedback > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+

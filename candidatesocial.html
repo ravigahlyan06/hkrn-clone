@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Haryana Kaushal Rozgar Nigam</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="hkrn.css" />
+    <link rel="stylesheet" href="candidatesocial.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="mail">
+        <div class="icn">
+          <i class="fa-solid fa-envelope"></i>
+          <h5>hkrn.gov@gmail.com</h5>
+        </div>
+        <div class="icn">
+          <i class="fa-solid fa-right-to-bracket"></i>
+          <h5>Department Login</h5>
+        </div>
+      </div>
+      <div class="head">
+        <div class="name">
+          <div>
+            <h1>HKRN</h1>
+          </div>
+        </div>
+        <div>
+          <h3>Haryan Kaushal Rozgar Nigam</h3>
+          <h6>Government of Haryana</h6>
+        </div>
+        <div class="image">
+          <img
+            src="https://manoharlalkhattar.in/sites/default/files/Pic.png"
+            alt="Photo"
+          />
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="D:\Ravi\ravii\Javascript\HKRN\hkrn.html"> Home </a>
+          </li>
+          <li>
+            <a href="D:\Ravi\ravii\Javascript\HKRN\about.html"> About </a>
+          </li>
+          <li>
+            <a href="D:\Ravi\ravii\Javascript\HKRN\dpt.html" target="_blank">
+              Department Login
+            </a>
+          </li>
+          <li>
+            <a href="D:\Ravi\ravii\Javascript\HKRN\candidate.html">
+              Candidate Registration and Login
+            </a>
+          </li>
+          <li>
+            <a href="D:\Ravi\ravii\Javascript\HKRN\jobadvertisement.html">
+              Job advertisements
+            </a>
+          </li>
+          <li class="griv">
+            <a href="D:\Ravi\ravii\Javascript\HKRN\grievance.html">
+              Grievance & Feedback
+            </a>
+            <div class="feedback-cont">
+              <div class="Feedback">
+                <a href="#">Feedback</a>
+                <a href="#">Grievance</a>
+              </div>
+                  </div>
+          </li>
+          <li>
+            <a href="D:\Ravi\ravii\Javascript\HKRN\pt.html" target="_blank">
+              Enterprises
+            </a>
+          </li>
+          <li>
+            <a href="D:\Ravi\ravii\Javascript\HKRN\investors.html">
+              Investors
+            </a>
+          </li>
+          <li>
+            <a href="D:\Ravi\ravii\Javascript\HKRN\contact.html">
+              Contact Us
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="Registered-ID">
+        <div>
+          <h1>Candidate Registration ID : 009001203490879</h1>
+        </div>
+      </div>
+      <div class="container">
+      <div class="big-btn-div">
+        <div class="small-btn-div">
+          <a
+            href="file:///D:/Ravi/ravii/Javascript/HKRN/candidatefilldetail.html"
+          >
+            <h3>Step-1</h3>
+            <p>Personal Detail</p>
+          </a>
+
+          <a
+            href="file:///D:/Ravi/ravii/Javascript/HKRN/candidateadddeatil.html"
+          >
+            <h3>Step-2</h3>
+            <p>Education-Detail</p>
+          </a>
+
+          <a href="D:\Ravi\ravii\Javascript\HKRN\candidatesocial.html">
+            <h3>Step-3</h3>
+            <p>Socio Economic Criteria</p>
+          </a>
+          <a href="D:\Ravi\ravii\Javascript\HKRN\candidateexperince.html">
+            <h3>Step-4</h3>
+            <p>Experience Detail</p>
+          </a>
+          <a href="D:\Ravi\ravii\Javascript\HKRN\candidateapplyjob.html">
+            <h3>Step-5</h3>
+            <p>Apply For a Job</p>
+          </a>
+        </div>
+      </div>
+     
+        <div class="first-box">
+          <div class="heading"><p>Socio Economic Criteria</p></div>
+          <div class="orphan-inp">
+            <label for="Orphan">1. Is application Orphan before the age of 24 ?</label>
+            <select id="Orphan" onchange="handleOnChange(this.value)">
+              <option value="">--Select--</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+            <label for="orphan_inp_2">2. Is application the first or Second Child and his/her father died before attaining age of 42 year ? </label>
+          <select id="orphan_inp_2" onchange="handleSecondChange(this.value)">
+            <option value="">--Select--</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+          <label for="orphan_inp_3">3. Is application the first or Second Child and his/her father died before the application had attained the  age of 12 year ? </label>
+          <select id="orphan_inp_3" onchange="handleThirdChange(this.value)">
+            <option value="">--Select--</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+          </div>
+          
+          
+          <div class="hide-inp" id="hide_input_1">
+            <div class="heading" ><p>Father' Information</p></div>
+            <div class="father-information">
+              <label for="date_of_death">Father Date of Death[As Per Death Certificate]</label>
+          <input type="date" id="date_of_death" >
+            </div>
+            <div class="heading"><p>Father Death Certificate Detail</p></div>
+            <div class="death-certificate">
+             <div class="inputs">
+              <div class="inp-1">
+                <label for="select_state"><h4>State</h4><p>[Where Father's Death Occurred]</p></label>
+                <select id="select_state">
+                  <option value="">(Select State)</option>
+                  <option value="Haryana">Haryana</option>
+                  <option value="Punjab">Punjab</option>
+                  <option value="Utter Pardesh">Utter Pardesh</option>
+                  <option value="Rajesthan">Rajesthan</option>
+                  <option value="Delhi">Delhi</option>
+                  <option value="Mumbai">Mumbai</option>
+                </select>
+               </div>
+               <div class="inp-2">
+                <label for="select_dic"><h4>District</h4><p>[Where Father's Death Occurred]</p></label>
+                <select id="select_dic">
+                  <option value="">(Select District)</option>
+                  <option value="Panipat">Panipat</option>
+                  <option value="Sonipat">Sonipat</option>
+                  <option value="Rothak">Rothak</option>
+                  <option value="jind">jind</option>
+                  <option value="Kanpur">Kanpur</option>
+                  <option value="karnal">karnal</option>
+                </select>
+               </div>
+               <div class="inp-3">
+                <label for="Certificate_no"><h4>Death Certificate No</h4><p>[As per Death Certificate]</p></label>
+                <input type="text" id="Certificate_no">
+               </div>
+               <div class="inp-4">
+                <label for="file_inp"><h4>Upload Father's Death Certificate</h4><p>(PDF file upto 300 KB only)</p></label>
+                <input type="file" id="file_inp">
+               </div>
+             </div>
+             <button>UPLOAD</button>
+            </div>
+            <div class="heading"><p>Mother Death Certificate Detail</p></div>
+            <div class="mother_death">
+            <div class="inputs">
+              <div class="inp-1">
+                <label for="select_mother_state"><h4>State</h4><p>[Where Mother's Death Occurred]</p></label>
+                <select id="select_ mother_state">
+                  <option>(Select State)</option>
+                  <option value="Haryana">Haryana</option>
+                  <option value="Punjab">Punjab</option>
+                  <option value="Utter Pardesh">Utter Pardesh</option>
+                  <option value="Rajesthan">Rajesthan</option>
+                  <option value="Delhi">Delhi</option>
+                  <option value="Mumbai">Mumbai</option>
+                </select>
+               </div>
+               <div class="inp-2">
+                <label for="select_dis"><h4>District</h4><p>[Where Mother's Death Occurred]</p></label>
+                <select id="select_dis">
+                  <option>(Select District)</option>
+                  <option value="Panipat">Panipat</option>
+                  <option value="Sonipat">Sonipat</option>
+                  <option value="Rothak">Rothak</option>
+                  <option value="jind">jind</option>
+                  <option value="Kanpur">Kanpur</option>
+                  <option value="karnal">karnal</option>
+                </select>
+               </div>
+               <div class="inp-3">
+                <label for="Certificate_No"><h4> Mother's Death Certificate No</h4><p>[As per Death Certificate]</p></label>
+                <input type="text" id="Certificate_No">
+               </div>
+               <div class="inp-4">
+                <label for="date_of_mother"><h4>Mother Date of Death</h4><p>[As Per Death Certificate]</p></label>
+                <input type="date" id="date_of_mother" >
+               </div>
+               <div class="inp-5">
+                <label for="file_input"><h4>Upload Mother's Death Certificate</h4><p>(PDF file upto 300 KB only)</p></label>
+                <input type="file" id="file_input">
+               </div>
+            </div>
+               <button>UPLOAD</button>
+            </div>
+          </div>
+          <div class="hide-inp-2" id="hide-inp-2">
+            <div class="heading" ><p>Father' Information</p></div>
+            <div class="inputss">
+              <div class="father-death-information">
+                <label for="date_of_birth">Father Date of Birth</label>
+            <input type="date" id="date_of_birth" >
+              </div>
+              <div class="father-death-information">
+                <label for="date_of_death">Father Date of Death[As Per Death Certificate]</label>
+            <input type="date" id="date_of_death" >
+              </div>
+            </div>
+          </div>
+          <div class="hide-inp-3"  id="hide-inp-3">
+            <div class="heading" ><p>Father' Information</p></div>
+            <div class="father-information">
+              <label for="date_death">Father Date of Death[As Per Death Certificate]</label>
+          <input type="date" id="date_death" >
+            </div>
+            <div class="heading"><p>Father Death Certificate Detail</p></div>
+            <div class="death-certificate">
+             <div class="inputs">
+              <div class="inp-1">
+                <label for="select_state_inp"><h4>State</h4><p>[Where Father's Death Occurred]</p></label>
+                <select id="select_state_inp">
+                  <option value="">(Select State)</option>
+                  <option value="Haryana">Haryana</option>
+                  <option value="Punjab">Punjab</option>
+                  <option value="Utter Pardesh">Utter Pardesh</option>
+                  <option value="Rajesthan">Rajesthan</option>
+                  <option value="Delhi">Delhi</option>
+                  <option value="Mumbai">Mumbai</option>
+                </select>
+               </div>
+               <div class="inp-2">
+                <label for="select_diss"><h4>District</h4><p>[Where Father's Death Occurred]</p></label>
+                <select id="select_diss">
+                  <option value="">(Select District)</option>
+                  <option value="Panipat">Panipat</option>
+                  <option value="Sonipat">Sonipat</option>
+                  <option value="Rothak">Rothak</option>
+                  <option value="jind">jind</option>
+                  <option value="Kanpur">Kanpur</option>
+                  <option value="karnal">karnal</option>
+                </select>
+               </div>
+               <div class="inp-3">
+                <label for="death_certificate_no"><h4>Death Certificate No</h4><p>[As per Death Certificate]</p></label>
+                <input type="text" id="death_certificate_no">
+               </div>
+               <div class="inp-4">
+                <label for="file_inpo"><h4>Upload Father's Death Certificate</h4><p>(PDF file upto 300 KB only)</p></label>
+                <input type="file" id="file_inpo">
+               </div>
+             </div>
+             <button>UPLOAD</button>
+            
+            </div>
+          </div>
+          <div class="btn">
+            <button class="btn-1">BACK</button>
+            <button class="btn-2">SAVE</button>
+            <button class="btn-3">NEXT</button>
+          </div>
+          <div class="save-data">
+            <div class="heading">
+              <p>Socio Economic Criteria [Saved]</p>
+            </div>
+            <div class="show-data">
+              <div>
+                <h5>Relation</h5>
+                <p class="data"></p>
+              </div>
+              <div>
+                <h5>Is Orphan before the age of 25 year</h5>
+                <p class="data"></p>
+              </div>            
+              <div>
+                <h5>Is First/Second Child & Father's Death before attaining the age of 42 years</h5>
+                <p class="data"></p>
+              </div>
+              <div>
+                <h5>Is First/Second child & Father's Death before the age of 12 years </h5>
+                <p class="data"></p>
+              </div>
+              <div>
+                <h5>State [Where death occurred]</h5>
+                <p class="data"></p>
+              </div>
+              <div>
+                <h5>District[Where death occurred]
+                </h5>
+                <p class="data"></p>
+              </div>
+              <div>
+                <h5>Death Certificate No.</h5>
+                <p class="data"></p>
+              </div>
+              <div>
+                <h5>Death Date</h5>
+                <p class="data"></p>
+              </div>
+              <div>
+                <h5>View Death Certificate</h5>
+                <p class="data"><i class="fa-regular fa-eye"></i></p>
+              </div>
+              <div>
+                <h5>Delet Certificate</h5>
+                <p><i class="fa-solid fa-trash"></i></p>
+              </div>
+              
+            </div>
+            <p>No Records Found</p>
+           </div>
+        </div>
+      </div>
+    
+      <div class="map">
+        <div class="contact">
+          <h1>Contact</h1>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            <b>Registered Address :</b> Haryana Kaushal Rozgar Nigam Limited,
+            Skill Development and <br />
+            Industrial Training Department, Haryan, Kaushal Bhawan, Plot No.
+            IP-2 Sector 3,Urban <br />Estate, Panchkula
+          </p>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            <b>Office Address :</b> Haryana Kaushal Rozgar Nigam Limited, Sainik
+            Pariwar Bhawan Buliding.<br />Near ISKCON Temple, Plot No 101,
+            Sector 12 Panchkula
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            01724041234, 01722996201, 01722996533
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            hkrn.gov@gmail.com
+          </p>
+          <p>
+            <i class="fa-solid fa-book"></i>
+            <b>CIN : </b>U93090HR2021SGC098461
+          </p>
+        </div>
+        <div class="link">
+          <h1>Link</h1>
+          <ul>
+            <li>
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="">About </a>
+            </li>
+            <li>
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="">Department Login</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="">Feedback</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13686466.747898152!2d82.07410586666136!3d33.124262011960525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dda457afbe651%3A0x41d3f6feacaa74d4!2sPanipat%2C%20Haryana!5e0!3m2!1sen!2sin!4v1703073449491!5m2!1sen!2sin"
+            width="350"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Copyright © Haryana Kaushal Rozgar Nigam (HKRN). All rights reserved
+      </p>
+    </footer>
+
+    <script src="hkrn.js"></script>
+    <script src="candidatesocial.js"></script>
+  </body>
+</html>

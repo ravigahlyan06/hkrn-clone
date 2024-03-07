@@ -1,0 +1,223 @@
+.wrapper {
+  position: relative;
+}
+#overflow-hidden {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.loader{
+top:0;
+left:0;
+bottom: 0;
+right: 0;
+  z-index: 1;
+overflow: hidden;
+position: fixed;
+/* background:  */
+background-color:rgba(45, 164, 211, 0.6);
+display: none;
+
+}
+.loader>.spin{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader>.spin>.spiner{
+width:80px;
+height:80px;
+border:15px dashed black;
+border-radius: 50%;
+animation: spin 0.75s ease infinite;
+border-top-color: #009578;
+}
+
+@keyframes spin{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+.alert-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  background-color: #69666653;
+  position: fixed;
+  /* display: none;  */
+}
+.alert {
+  width: 500px;
+  height: 300px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 9999;
+  flex-direction: column;
+  background-color: white;
+  /* display: none; */
+}
+.alert > .btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* background-color: #195ca4; */
+  width: 100%;
+}
+
+.alert > .btn > button {
+  width: 50px;
+  font-size: 15px;
+  padding: 5px;
+  margin-right: 5px;
+  background-color: #195ca4;
+  border: none;
+  outline: none;
+  color: white;
+}
+.alert > .icn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.alert > .icn > i {
+  font-size: 90px;
+  color: red;
+}
+.alert > p {
+  text-align: center;
+}
+
+.main > .Registered-ID {
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  background-color: #dee0e1;
+}
+.main > .Registered-ID > div > h1 {
+  color: red;
+  font-size: 35px;
+  padding: 15px;
+}
+
+.container {
+  padding: 20px 150px;
+}
+.main > .container > .big-btn-div {
+  padding: 20px;
+}
+.main > .container > .big-btn-div > .small-btn-div {
+  width: 100%;
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.main > .container > .big-btn-div > .small-btn-div > a {
+  flex: 1;
+  padding: 30px 10px;
+  font-size: 16px;
+  min-width: 100px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  min-width: 80px;
+}
+
+.main > .container > .big-btn-div > .small-btn-div > a:hover {
+  background-color: #195ca4;
+  color: white;
+}
+
+.main > nav {
+  background-color: white;
+}
+.main > .container > .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main > .container > .heading > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main > .container > .heading > h1 > .sp {
+  width: 180px;
+  border: 1px solid rgba(247, 67, 67, 0.718);
+  margin-top: 8px;
+}
+
+.main > .container > .heading > h1 > span {
+  width: 150px;
+  border: 1px solid rgba(247, 67, 67, 0.718);
+  margin-top: 2px;
+}
+.main > .container > .storage > .show-data {
+  /* background-color: cornflowerblue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.main > .container > .storage > p {
+  text-align: center;
+  margin: 5px;
+}
+
+
+.griv {
+  position: relative;
+}
+ .griv > a:hover + .feedback-cont {
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  opacity: 0;
+  pointer-events: none;
+}
+.griv > .feedback-cont:hover{
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont > .Feedback > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}

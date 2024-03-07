@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="dpt.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="first-div">
+        <marquee
+          behavior="alternate"
+          style="color: Yellow; font-weight: bolder; font-size: 25px"
+        >
+          ESI & EPF Details are mandatory to fill before marking attendance.<br />
+          Salary will not be disbursed in case of Incorrect ESI & EPF
+          Information.
+        </marquee>
+        <marquee
+          behavior="alternate"
+          style="color: red; font-weight: bolder; font-size: 25px"
+        >
+          Register yourself with Haryana Labour Department U/s 7 of the Contract
+          Labour (Regulation and Abolition) Act, 197O.
+        </marquee>
+        <marquee
+          behavior="alternate"
+          style="color: green; font-weight: bolder; font-size: 25px"
+        >
+          There is some server issue. The Web Site may be slow, Please try after
+          some time !
+        </marquee>
+      </div>
+      <div class="second-div">
+        <div class="head">
+          <h1>HKRN</h1>
+          <p>Haryana Kaushal Rojgar Nigam</p>
+        </div>
+        <div class="inp">
+          <div class="name">
+            <h3>User Name</h3>
+            <input type="text" placeholder="User Name" id="Use_Name" />
+          </div>
+          <div class="hidden" id="Enter_nam"><h3>Enter User Name</h3></div>
+          <div class="pass"> 
+            <h3>Password</h3>
+            <input type="password" placeholder="Password"  id="Password"/>
+          </div>
+          <div class="hidden" id="Enter_Pass"><h3>Enter Password</h3></div>
+        </div>
+        <div class="btn">
+          <a href="D:\Ravi\ravii\Javascript\HKRN\dptforget.html">Forget Password ?</a>
+          <a href="#">Change User Profile ?</a>
+          <button onclick="handleBtn() ">Login</button>
+        </div>
+        <div class="show" id="Incorect">
+          <h3>UserName or Password are incorrect </h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="dpt.js"></script>
+  </body>
+</html>

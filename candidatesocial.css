@@ -1,0 +1,514 @@
+.main > .Registered-ID {
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  #dee0e1;
+  margin-top: 4px;
+
+
+}
+.main>nav{
+  background-color: white;
+}
+.main > .Registered-ID > div > h1 {
+  color: red;
+  font-size: 35px;
+  padding:15px;
+
+}
+
+.container {
+  padding: 20px 150px;
+}
+.main > .container > .big-btn-div {
+  padding: 20px;
+}
+.main > .container > .big-btn-div > .small-btn-div {
+  width: 100%;
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.main > .container > .big-btn-div > .small-btn-div > a {
+  flex: 1;
+  padding: 30px 10px;
+  font-size: 16px;
+  min-width: 100px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  min-width: 80px;
+}
+
+.main > .container > .big-btn-div > .small-btn-div > a:hover {
+  background-color: #195ca4;
+  color: white;
+}
+.main > .container > .first-box > .heading {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-image: linear-gradient(135deg, #1265d9f5, #22e4f6);
+}
+.main > .container > .first-box > .orphan-inp {
+  /* background-color: yellow; */
+  margin-top: 20px;
+}
+.main > .container > .first-box > .orphan-inp > label {
+  display: block;
+}
+.main > .container > .first-box > .orphan-inp > select {
+  width: 500px;
+  font-size: 15px;
+  padding: 5px;
+  display: block;
+  margin-bottom: 20px;
+}
+.main > .container > .first-box > .btn {
+  /* background-color: yellow; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  /* padding-left: 200px; */
+}
+
+.main > .container > .first-box > .btn > button {
+  font-size: 13px;
+  padding: 6px 25px;
+  border-radius: 13px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+}
+.main > .container > .first-box > .btn > button:hover {
+  border-radius: 1px;
+}
+.main > .container > .first-box > .btn > .btn-1 {
+  background-color: rgba(251, 47, 47, 0.9);
+}
+.main > .container > .first-box > .btn > .btn-2 {
+  background-color: rgba(7, 112, 7, 0.747);
+}
+.main > .container > .first-box > .btn > .btn-3 {
+  background-color: rgba(0, 0, 255, 0.77);
+}
+.main > .container > .first-box > .save-data > .heading {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-image: linear-gradient(135deg, #1265d9f5, #22e4f6);
+  margin-top: 25px;
+}
+.main > .container > .first-box > .save-data > .show-data {
+  width: 100%;
+  /* background-color: greenyellow; */
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.main > .container > .first-box > .save-data > .show-data > div>h5{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height:70px;
+  /* background-color: #22e4f6; */
+}
+.main > .container > .first-box > .save-data > .show-data > div {
+  width: 100%;
+margin-top: 20px;
+}
+.main > .container > .first-box > .save-data > .show-data > div>p{
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  /* background-color: #195ca4; */
+  margin-top: 10px;
+  font-size: 15px;
+  display: none;
+}
+.main > .container > .first-box > .save-data>p{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.main > .container > .first-box >.hide-inp{
+  display: none;
+}
+.main > .container > .first-box >.hide-inp>.heading{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-image: linear-gradient(135deg, #1265d9f5, #22e4f6);
+  margin-top: 25px;
+}
+
+.main > .container > .first-box >.hide-inp>.father-information{
+  width:100%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px;
+  margin-top: 30px;
+}
+.main > .container > .first-box >.hide-inp>.father-information>input{
+  width:500px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border:1px solid black;
+  outline: none;
+}
+
+
+
+
+
+
+.main > .container > .first-box >.hide-inp>.death-certificate>.inputs{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  /* background-color: yellow; */
+}
+.main > .container > .first-box >.hide-inp>.death-certificate>.inputs>.inp-1>select{
+  width:250px;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+}
+
+.main > .container > .first-box >.hide-inp>.death-certificate>.inputs>.inp-1>label>p{
+  font-size: 13px;
+}
+
+.main > .container > .first-box >.hide-inp>.death-certificate>.inputs>.inp-2>select{
+  width:250px;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+}
+.main > .container > .first-box >.hide-inp>.death-certificate>.inputs>.inp-2>label>p{
+  font-size: 13px;
+}
+.main > .container > .first-box >.hide-inp>.death-certificate>.inputs>.inp-3>input{
+  width:250px;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+}
+.main > .container > .first-box >.hide-inp>.death-certificate>.inputs>.inp-3>label>p{
+  font-size: 13px;
+}
+.main > .container > .first-box >.hide-inp>.death-certificate>.inputs>.inp-4>input{
+  width:250px;
+  font-size: 17px;
+  outline: none;
+  border:1px solid black;
+}
+.main > .container > .first-box >.hide-inp>.death-certificate>.inputs>.inp-4>label>p{
+  font-size: 13px;
+  color: red;
+}
+
+.main > .container > .first-box >.hide-inp>.death-certificate>button{
+ font-size: 15px;
+ font-weight: bold;
+ padding:4px 25px; 
+ border-radius: 10px;
+ background-color: gold;
+ outline: none;
+ border: none;
+ margin-top: 15px;
+}
+
+.main > .container > .first-box >.hide-inp>.death-certificate>button:hover{
+  border-radius: 2px;
+}
+
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: yellow; */
+}
+
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-1{
+  width:24%;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-2{
+  width:24%;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-3{
+  width:24%;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-4{
+  width:24%;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-5{
+  width:24%;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-1>select{
+  width:250px;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+}
+
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-1>label>p{
+  font-size: 13px;
+}
+
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-2>select{
+  width:250px;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-2>label>p{
+  font-size: 13px;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-3>input{
+  width:250px;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-3>label>p{
+  font-size: 13px;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-4>input{
+  width:250px;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+ 
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-4>label>p{
+  font-size: 13px;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-5{
+  margin-top: 15px;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-5>input{
+  width:250px;
+  font-size: 17px;
+  outline: none;
+  border:1px solid black;
+}
+.main > .container > .first-box >.hide-inp>.mother_death>.inputs>.inp-5>label>p{
+  font-size: 13px;
+  color: red;
+}
+
+.main > .container > .first-box >.hide-inp>.mother_death>button{
+ font-size: 15px;
+ font-weight: bold;
+ padding:4px 25px; 
+ border-radius: 10px;
+ background-color: gold;
+ outline: none;
+ border: none;
+ margin-top: 15px;
+}
+
+.main > .container > .first-box >.hide-inp>.mother_death>button:hover{
+  border-radius: 2px;
+}
+
+.main > .container > .first-box >.hide-inp-2{
+  display: none;
+}
+.main > .container > .first-box >.hide-inp-2>.heading{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-image: linear-gradient(135deg, #1265d9f5, #22e4f6);
+  margin-top: 25px;
+}
+.main > .container > .first-box >.hide-inp-2>.inputss{
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap:30px;
+  margin-top: 30px;
+}
+
+.main > .container > .first-box >.hide-inp-3{
+  display: none;
+}
+.main > .container > .first-box >.hide-inp-3>.heading{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-image: linear-gradient(135deg, #1265d9f5, #22e4f6);
+  margin-top: 25px;
+}
+.main > .container > .first-box >.hide-inp-2>.inputss>.father-death-information{
+ 
+  /* background-color: aqua; */
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap:5px;
+}
+.main > .container > .first-box >.hide-inp-2>.inputss>.father-death-information>input{
+  
+  width:350px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border:1px solid black;
+  outline: none;
+}
+
+
+
+.main > .container > .first-box >.hide-inp-3>.father-information{
+  width:100%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px;
+  margin-top: 30px;
+}
+.main > .container > .first-box >.hide-inp-3>.father-information>input{
+  width:500px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border:1px solid black;
+  outline: none;
+}
+
+
+
+.main > .container > .first-box >.hide-inp-3>.death-certificate>.inputs{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  /* background-color: yellow; */
+}
+.main > .container > .first-box >.hide-inp-3>.death-certificate>.inputs>.inp-1>select{
+  width:250px;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+}
+
+.main > .container > .first-box >.hide-inp-3>.death-certificate>.inputs>.inp-1>label>p{
+  font-size: 13px;
+}
+
+.main > .container > .first-box >.hide-inp-3>.death-certificate>.inputs>.inp-2>select{
+  width:250px;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+}
+.main > .container > .first-box >.hide-inp-3>.death-certificate>.inputs>.inp-2>label>p{
+  font-size: 13px;
+}
+.main > .container > .first-box >.hide-inp-3>.death-certificate>.inputs>.inp-3>input{
+  width:250px;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+}
+.main > .container > .first-box >.hide-inp-3>.death-certificate>.inputs>.inp-3>label>p{
+  font-size: 13px;
+}
+.main > .container > .first-box >.hide-inp-3>.death-certificate>.inputs>.inp-4>input{
+  width:250px;
+  font-size: 17px;
+  outline: none;
+  border:1px solid black;
+}
+.main > .container > .first-box >.hide-inp-3>.death-certificate>.inputs>.inp-4>label>p{
+  font-size: 13px;
+  color: red;
+}
+
+.main > .container > .first-box >.hide-inp-3>.death-certificate>button{
+  font-size: 15px;
+  font-weight: bold;
+  padding:4px 25px; 
+  border-radius: 10px;
+  background-color: gold;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+ }
+ 
+ .main > .container > .first-box >.hide-inp-3>.death-certificate>button:hover{
+   border-radius: 2px;
+ }
+
+ 
+.griv {
+  position: relative;
+}
+ .griv > a:hover + .feedback-cont {
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  opacity: 0;
+  pointer-events: none;
+}
+.griv > .feedback-cont:hover{
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont > .Feedback > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
