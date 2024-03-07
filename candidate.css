@@ -1,0 +1,283 @@
+body {
+  position: relative;
+}
+.main > .poster {
+  padding: 0px 180px;
+
+  /* background-color: gold; */
+}
+.main > .poster > .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main > .poster > .head > h1 {
+  color: rgba(27, 27, 87, 0.829);
+}
+.main > .poster > .head > span {
+  width: 130px;
+  border: 1px solid red;
+  background-color: red;
+  margin: 1px;
+}
+.main > .poster > .head > .first {
+  width: 170px !important;
+}
+.main > .poster > .detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: linear-gradient(90deg, #1959a2 0%, #1dc9e0 100%);
+  padding: 7px 8px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.main > .poster > .detail > h2 {
+  color: white;
+  font-size: 18px;
+}
+.main > .poster > .detail > p {
+  color: rgb(7, 85, 151);
+  animation: myp 1s steps(5, start) infinite;
+  opacity: 1;
+}
+@keyframes myp {
+  100% {
+    visibility: hidden;
+  }
+}
+
+.main > .poster > .inp {
+  width: 100%;
+  /* background-color: violet; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  padding: 0px 10px;
+}
+.main > .poster > .inp > .btn > input {
+  border: 1px solid black;
+  outline: none;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 5px;
+  display: block;
+}
+.main > .poster > .inp > .btn > button {
+  font-size: 16px;
+  padding: 10px;
+  background-color: rgba(40, 153, 40, 0.905);
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main > .poster > .inp > .btn > button:hover {
+  background-color: green;
+}
+.alert-container {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #504f4f96; */
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.2s ease-in-out;
+}
+.alert-container > .alert {
+  width: 400px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 280px;
+}
+.alert-container > .alert > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+.alert-container > .alert > div > i {
+  color: red;
+  font-size: 70px;
+}
+.alert-container > .alert > .btn {
+  /* border:1px solid grey; */
+  border-radius: 3px;
+  width: 100%;
+}
+.alert-container > .alert > .btn > button {
+  font-size: 18px;
+  padding: 8px 20px;
+  background-color: #1959a2;
+  color: white;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.main > .poster > .hidden-inp > .member {
+  /* background-color: #1dc9e0; */
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  display: none;
+}
+.main > .poster > .hidden-inp > .member > .butn > .innput > select {
+  /* border:1px solid black; */
+  outline: none;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.main > .poster > .hidden-inp > .member > .butn > button {
+  font-size: 16px;
+  padding: 10px;
+  background-color: rgba(40, 153, 40, 0.905);
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main > .poster > .hidden-inp > .member > .butn > button:hover {
+  background-color: green;
+}
+.main > .poster > .hidden-inp > .enter-otp {
+  width: 100%;
+  /* background-color: tomato; */
+  margin-top: 20px;
+
+  display: none;
+}
+.main > .poster > .hidden-inp > .enter-otp > .number-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: green;
+  font-weight: bold;
+}
+.main > .poster > .hidden-inp > .enter-otp > .number-line > p {
+  padding: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.main > .poster > .hidden-inp > .enter-otp > .fill-otp {
+  /* background-color: chocolate; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.main > .poster > .hidden-inp > .enter-otp > .fill-otp > .inp {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.main > .poster > .hidden-inp > .enter-otp > .fill-otp > .inp > input {
+  width: 120px;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid rgb(81, 79, 79);
+}
+.main > .poster > .hidden-inp > .enter-otp > .fill-otp > .inp > button {
+  background-color: green;
+  padding: 8px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.main > .poster > .hidden-inp > .enter-otp > .fill-otp > .inp > p {
+  display: none;
+}
+
+.main > .poster > .hidden-inp > .enter-otp > .timer-box {
+  /* background-color: tomato; */
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main > .poster > .hidden-inp > .enter-otp > .timer-box > .second {
+  text-align: center;
+  font-weight: bold;
+  border-radius: 0px 10px;
+  font-size: 17px;
+  border: 1px solid black;
+  background-color: color-mix(in srgb-linear, gold 30%, brown 20%);
+  width: 50px;
+  padding: 8px;
+}
+
+
+.griv {
+  position: relative;
+}
+ .griv > a:hover + .feedback-cont {
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  opacity: 0;
+  pointer-events: none;
+}
+.griv > .feedback-cont:hover{
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #a90303;
+  width: 185px;
+padding: 10px;
+  opacity: 1;
+  text-align: center; 
+  pointer-events: all;
+}
+ .griv > .feedback-cont > .Feedback > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}

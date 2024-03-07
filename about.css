@@ -1,0 +1,127 @@
+.main>.about{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    padding-top: 20px;
+}
+.main>.about>.heading{
+    width:100%;
+     /* background-color: aqua; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.main>.about>.heading>.sp{
+width: 160px;
+border:1px solid red;
+display: flex;
+align-items: start;
+justify-content: start;
+gap:10px;
+}
+.main>.about>.heading>span{
+    width:100px;
+    margin-left: 10px;
+    border:1px solid red;
+    display: flex;
+align-items: end;
+justify-content: end;
+margin:2px;
+}
+.main>.about>.phera{
+    padding: 20px 200px;
+}
+.main>.about>.phera>div{
+    width: 100%;
+}
+.main>.about>.phera> div >p{
+     margin: 10px 0px;
+    line-height: 30px;
+}
+.main>.about>.phera>div>ul{
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+list-style: none;
+margin: 20px 0px;
+}
+.main>.about>.phera>div>ul>li{
+    margin: 5px 0px;    
+}
+.main>.about>.phera>div>ul>li>i{
+    color:rgb(245, 86, 86); 
+}
+.main>.about>.phera>div>.heading{
+    width:100%;
+    
+}
+.main>.about>.phera>div>.heading>h3{
+    color:rgb(245, 86, 86);
+}
+.main>.about>.phera>div>table{
+    width:100%;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #d3d7d8;
+}
+tr:nth-child(1){
+    background-color: #E4EAEC;
+}
+table, th, td {
+    border: 1px solid #d3d7d8;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+.map, footer{
+    margin: 0px !important;
+}
+
+.griv {
+    position: relative;
+  }
+   .griv > a:hover + .feedback-cont {
+    width: 185px;
+  padding: 10px;
+    opacity: 1;
+    text-align: center; 
+    pointer-events: all;
+  }
+   .griv > .feedback-cont {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #a90303;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .griv > .feedback-cont:hover{
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #a90303;
+    width: 185px;
+  padding: 10px;
+    opacity: 1;
+    text-align: center; 
+    pointer-events: all;
+  }
+   .griv > .feedback-cont > .Feedback > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+  }
